@@ -75,6 +75,22 @@
             android:text="Start Service" />
 
         <Button
+            android:id="@+id/btnServiceJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:text="Service Job" />
+
+        <Button
+            android:id="@+id/btnServiceBind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:text="Service Bind" />
+
+        <Button
             android:id="@+id/btnNotifications"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

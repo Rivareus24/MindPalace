@@ -1,6 +1,5 @@
 package com.okeechobee.rivareus24.mindpalace;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -15,6 +14,8 @@ import com.okeechobee.rivareus24.mindpalace.C___RecyclerView_Toast_Swipe.Recycle
 import com.okeechobee.rivareus24.mindpalace.F___SqlLite.SQLiteActivity;
 import com.okeechobee.rivareus24.mindpalace.G___ContentProvider.ContentProviderActivity;
 import com.okeechobee.rivareus24.mindpalace.H___Service_Start.ServiceStartActivity;
+import com.okeechobee.rivareus24.mindpalace.I___Service_Job.ServiceJobActivity;
+import com.okeechobee.rivareus24.mindpalace.J___Service_Bind.ServiceBindActivity;
 import com.okeechobee.rivareus24.mindpalace.K___Notifications.NotificationsActivity;
 import com.okeechobee.rivareus24.mindpalace.L___Broadcast_Receiver.BroadcastReceiverActivity;
 
@@ -28,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     private Button btnSQLite;
     private Button btnContentProvider;
     private Button btnServiceStart;
+    private Button btnServiceJob;
+    private Button btnServiceBind;
     private Button btnNotifications;
     private Button btnBroadcastReceiver;
 
@@ -101,9 +104,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // TODO Service
-
-        // startService()
+        // TODO startService()
         btnServiceStart = (Button) findViewById(R.id.btnServiceStart);
         btnServiceStart.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -112,10 +113,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // scheduleService()
-        // TODO
+        // TODO scheduleService()
+        btnServiceJob = (Button) findViewById(R.id.btnServiceJob);
+        btnServiceJob.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ServiceJobActivity.class));
+            }
+        });
 
-        // bindService()
+        // TODO bindService()
+        btnServiceBind = (Button) findViewById(R.id.btnServiceBind);
+        btnServiceBind.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ServiceBindActivity.class));
+            }
+        });
 
         // TODO Notifications
         btnNotifications = (Button) findViewById(R.id.btnNotifications);
@@ -136,8 +150,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // TODO Fragments
-        // Metà schermo elemento
-        // Metà schermo lista
 
         // TODO Testing
     }

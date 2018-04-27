@@ -49,7 +49,9 @@
             android:exported="false" />
 
         <activity android:name=".K___Notifications.NotificationsActivity" />
-        <activity android:name=".L___Broadcast_Receiver.BroadcastReceiverActivity"></activity>
+        <activity android:name=".L___Broadcast_Receiver.BroadcastReceiverActivity" />
+        <activity android:name=".I___Service_Job.ServiceJobActivity" />
+        <activity android:name=".J___Service_Bind.ServiceBindActivity"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Ciao"
+        android:id="@+id/itmCiao">
+
+    </item>
+
+    <item
+        android:title="Mirko"
+        android:id="@+id/itmMirko">
+    </item>
+
+    <item
+        android:title="Leso"
+        android:id="@+id/itmLeso">
+    </item>
+
+    <item
+        android:title="---"
+        android:id="@+id/x">
+    </item>
+
+    <item
+        android:title="Preferences"
+        android:id="@+id/preferences">
+    </item>
+
+</menu>

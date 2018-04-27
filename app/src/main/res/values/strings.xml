@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MindPalace</string>
+
+    <string name="pref_night_mode_title">Night Mode</string>
+    <string name="pref_night_mode_key">nightMode</string>
+    <string name="pref_night_mode_show_false">Off</string>
+    <string name="pref_night_mode_show_true">On</string>
+
+    <string name="pref_background_default_value">blue</string>
+    <string name="pref_background_title">Change background color</string>
+    <string name="pref_background_key">background</string>
+
+    <string name="pref_color_label_red">Red</string>
+    <string name="pref_color_label_blue">Blue</string>
+    <string name="pref_color_label_green">Green</string>
+
+    <string name="pref_color_red_value" translatable="false">red</string>
+    <string name="pref_color_blue_value" translatable="false">blue</string>
+    <string name="pref_color_green_value" translatable="false">green</string>
+
+    <string name="pref_username">Set username</string>
+    <string name="pref_username_key">username</string>
+    <string name="pref_username_default_value">user123</string>
+
+</resources>

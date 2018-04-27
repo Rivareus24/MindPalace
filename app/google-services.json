@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "300192950019",
+    "firebase_url": "https://mindpalace-f846e.firebaseio.com",
+    "project_id": "mindpalace-f846e",
+    "storage_bucket": "mindpalace-f846e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300192950019:android:c24bf7194830f5e4",
+        "android_client_info": {
+          "package_name": "com.okeechobee.rivareus24.mindpalace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300192950019-qb2rf1tebp96vvnmvum702jd726h2io5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.okeechobee.rivareus24.mindpalace",
+            "certificate_hash": "f16b6f76ba41b74ddf4dc998541cb7b9cc14b208"
+          }
+        },
+        {
+          "client_id": "300192950019-loilmjdfmtuvmjbap625qjjfimmjp55o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyop86vNQpMpKK7c2Xi6k9Wxk8Hpjq1jE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300192950019-loilmjdfmtuvmjbap625qjjfimmjp55o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

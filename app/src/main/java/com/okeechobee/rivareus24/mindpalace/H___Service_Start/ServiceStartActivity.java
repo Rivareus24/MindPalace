@@ -17,7 +17,7 @@ public class ServiceStartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_service_start);
 
         intent = new Intent(this, ServiceStart.class);
-        intent.setAction(TaskStart.ACTION);
+        intent.setAction(ServiceStart.ACTION1);
 
         startService(intent);
     }

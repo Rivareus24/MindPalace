@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.firebase.jobdispatcher.Driver;
+import com.firebase.jobdispatcher.GooglePlayDriver;
 import com.okeechobee.rivareus24.mindpalace.E___ASyncTaskLoader_SavedInstance.AsyncTaskActivity;
 import com.okeechobee.rivareus24.mindpalace.A___FireStore_Singleton.FirestoreActivity;
 import com.okeechobee.rivareus24.mindpalace.D___Intent.IntentActivity;
@@ -152,5 +154,8 @@ public class MainActivity extends AppCompatActivity {
         // TODO Fragments
 
         // TODO Testing
+
+        // TODO have a look
+        // Driver driver = new GooglePlayDriver(MainActivity.this);
     }
 }

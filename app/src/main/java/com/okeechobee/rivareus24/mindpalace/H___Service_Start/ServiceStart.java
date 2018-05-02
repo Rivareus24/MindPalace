@@ -7,8 +7,8 @@ import android.support.annotation.Nullable;
 
 public class ServiceStart extends IntentService {
 
-    public static final String ACTION1 = "action1";
-    public static final String ACTION2 = "action2"
+    public static final String ACTION1 = "Action 1";
+    public static final String ACTION2 = "Action 2";
 
     public ServiceStart() {
         super("ServiceStart");
